@@ -2,7 +2,7 @@
 
 ![solarized-i3](https://user-images.githubusercontent.com/35846412/171958780-f1fc9dc6-b91c-42a3-9bf5-6acbfb98beaf.png)
 
-## Solarized, color pallete with roots out of this world
+## All Solarized Everywhere!
 
 https://ethanschoonover.com/solarized/
 
