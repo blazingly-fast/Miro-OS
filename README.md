@@ -1,3 +1,5 @@
+
+
 ## Installing
 
 You will need `git` and GNU `stow`
@@ -21,4 +23,8 @@ stow zsh # Just my zsh config
 ## Programs
 
 An updated list of all the programs I use can be found in the `programs` directory
+
+## LunarVim as Neovim distribution 
+
+https://www.lunarvim.org
 
