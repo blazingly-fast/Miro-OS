@@ -19,7 +19,7 @@ git clone git clone https://github.com/olemartinorg/i3-alternating-layout ~/.con
 
 Clone into your `$HOME` directory or `~`
 ```bash
-git clone https://github.com/ChristianChiarulli/Mirofiles.git ~
+git clone https://github.com/ChristianChiarulli/Miro-OS.git ~
 ```
 Run `stow` to symlink everything or just select what you want
 
