@@ -13,7 +13,7 @@ You will need `git` and GNU `stow`
 Clone i3-alternating-layout
 
 ```bash
-git clone git clone https://github.com/olemartinorg/i3-alternating-layout ~/.config/i3
+git clone https://github.com/olemartinorg/i3-alternating-layout ~/.config/i3
 
 ```
 
