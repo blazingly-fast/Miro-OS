@@ -1,4 +1,4 @@
-## My configuration of EndeavourOS i3wm
+## My configuration of an EndeavourOS i3wm
 
 ![solarized-i3](https://user-images.githubusercontent.com/35846412/171958780-f1fc9dc6-b91c-42a3-9bf5-6acbfb98beaf.png)
 ![i3-solarized-firefox](https://user-images.githubusercontent.com/35846412/171962671-4e936ee4-4417-4567-92bf-e727181257da.png)
