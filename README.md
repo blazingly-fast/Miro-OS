@@ -26,5 +26,6 @@ An updated list of all the programs I use can be found in the `programs` directo
 
 ## LunarVim as Neovim distribution 
 
-https://www.lunarvim.org
+<a href="https://www.lunarvim.org/assets/lunarvim_logo.png" target="_top">https://www.lunarvim.org</a>
+
 
