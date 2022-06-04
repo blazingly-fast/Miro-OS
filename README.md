@@ -22,7 +22,7 @@ git clone https://github.com/olemartinorg/i3-alternating-layout ~/.config/i3
 
 Clone into your `$HOME` directory or `~`
 ```bash
-git clone https://github.com/ChristianChiarulli/Miro-OS.git ~
+git clone https://github.com/blazingly-fast/Miro-OS.git
 ```
 Run `stow` to symlink everything or just select what you want
 
