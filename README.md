@@ -13,13 +13,6 @@ https://ethanschoonover.com/solarized/
 
 You will need `git` and GNU `stow`
 
-Clone i3-alternating-layout
-
-```bash
-git clone https://github.com/olemartinorg/i3-alternating-layout ~/.config/i3
-
-```
-
 Clone into your `$HOME` directory or `~`
 ```bash
 git clone https://github.com/blazingly-fast/Miro-OS.git
