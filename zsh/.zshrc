@@ -90,11 +90,10 @@ export BROWSER="firefox" # For QT Themes
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 # remap caps to ctrl
-setxkbmap -option ctrl:nocaps
-setxkbmap -option ctrl:swap_rwin_rctl
 # swap escape and caps
 # setxkbmap -option caps:swapescape
 
 #zoxide
 eval "$(zoxide init zsh)"
 alias ls="exa -a --icons"
+pfetch
