@@ -96,4 +96,5 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 #zoxide
 eval "$(zoxide init zsh)"
 alias ls="exa -a --icons"
+alias sail="./vendor/bin/sail"
 pfetch

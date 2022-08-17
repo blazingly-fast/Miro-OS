@@ -32,11 +32,11 @@
 #LOCKSCRIPT="i3lock-extra -m pixelize"
 
 # Colors: FG (foreground), BG (background), HL (highlighted)
-FG_COLOR="#bbbbbb"
-BG_COLOR="#2aa198"
-HLFG_COLOR="#2aa198"
-HLBG_COLOR="#bbbbbb"
-BORDER_COLOR="#222222"
+FG_COLOR="#002b36"
+BG_COLOR="#002b36"
+HLFG_COLOR="#002b36"
+HLBG_COLOR="#002b36"
+BORDER_COLOR="#002b36"
 
 # Options not related to colors (most rofi options do not work anymore)
 ROFI_OPTIONS=(-theme ~/.config/rofi/powermenu.rasi)
