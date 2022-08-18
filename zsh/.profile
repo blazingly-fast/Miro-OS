@@ -6,7 +6,7 @@ export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
 setxkbmap -option ctrl:nocaps
 xrandr --output HDMI1 --auto --left-of eDP1
 
-setxkbmap -layout us,rs
+setxkbmap -layout "us,rs" -variant "euro, latin"
 setxkbmap -option 'grp:win_space_toggle'
 # xrandr --output HDMI1 --auto --above eDP1
 #dotnet 
