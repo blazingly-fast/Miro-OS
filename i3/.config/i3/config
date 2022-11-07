@@ -32,6 +32,8 @@ set $mod Mod1
 # workspace layout: #
 #####################
 
+for_window [class="^.*"] border pixel 2
+
 # default i3 tiling mode:
 workspace_layout default
 
@@ -166,6 +168,12 @@ bindsym Return mode "default"
 }
 
 bindsym $mod+r mode "resize"
+
+#move to another monitor
+bindsym $mod+Ctrl+k move container to output up
+bindsym $mod+Ctrl+j move container to output down
+bindsym $mod+Ctrl+h move container to output left
+bindsym $mod+Ctrl+l move container to output right
 
 ######################################
 # keybindings for different actions: #
@@ -362,7 +370,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id feh --bg-max ~/Pictures/solarized-root.png
+exec --no-startup-id feh --bg-fill ~/Pictures/solarized-root.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
@@ -453,12 +461,13 @@ set $solarized-base #002b36
 set $solarized-base2 #073642
 set $solarized-base0 #657b83
 set $solarized-cyan #2aa198
+set $solarized-red #FF0000
 set $solarized-blue #268bd2
 set $solarized-yellow #b58900
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$solarized-cyan		$solarized-cyan
+client.focused		    $lightblue	$darkblue	$white		$solarized-yellow		$solarized-yellow
 client.unfocused	    $darkblue	$darkblue	$darkblue		$darkblue		$darkblue
 client.focused_inactive	$darkblue	$darkblue	$darkblue		$darkblue		$black
 client.urgent		    $urgentred	$urgentred	$white		$purlple		$yellowbrown
