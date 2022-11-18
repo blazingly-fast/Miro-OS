@@ -32,7 +32,7 @@ set $mod Mod1
 # workspace layout: #
 #####################
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 
 # default i3 tiling mode:
 workspace_layout default
@@ -467,7 +467,7 @@ set $solarized-yellow #b58900
 
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$solarized-yellow		$solarized-yellow
+client.focused		    $lightblue	$darkblue	$white		$solarized-cyan		$solarized-cyan
 client.unfocused	    $darkblue	$darkblue	$darkblue		$darkblue		$darkblue
 client.focused_inactive	$darkblue	$darkblue	$darkblue		$darkblue		$black
 client.urgent		    $urgentred	$urgentred	$white		$purlple		$yellowbrown

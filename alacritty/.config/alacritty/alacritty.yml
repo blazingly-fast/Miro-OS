@@ -153,7 +153,7 @@ schemes:
 #     cyan: "#56B6C2"
 #     white: "#abb2bf"
 
-colors: *solarized_dark
+colors: *solarized_light
 window.opacity: 1
 
   # Change cursor colors

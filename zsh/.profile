@@ -8,5 +8,5 @@ export PUBLIC_KEY=TUlHZU1BMEdDU3FHU0liM0RRRUJBUVVBQTRHTUFEQ0JpQUtCZ0d3NWFlWHVPRD
 
 setxkbmap -option ctrl:nocaps
 # xrandr --output HDMI1 --auto --left-of eDP1
-xrandr --output HDMI1 --auto --above eDP1
-#dotnet 
+xrandr --output HDMI1 --auto --above eDP1 
+# xrandr --output HDMI1 --auto --rotate left --left-of eDP1 
