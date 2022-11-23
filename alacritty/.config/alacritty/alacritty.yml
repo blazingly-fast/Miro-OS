@@ -153,8 +153,9 @@ schemes:
 #     cyan: "#56B6C2"
 #     white: "#abb2bf"
 
-colors: *solarized_light
-window.opacity: 1
+colors: *solarized_dark
+window:
+  opacity: 0.8
 
   # Change cursor colors
   # cursor:
@@ -184,7 +185,7 @@ font:
     # Style can be specified to pick a specific face.
     style: Italic
 
-  size: 9
+  size: 10
 
   ligatures: true
 
@@ -194,7 +195,7 @@ font:
   glyph_offset:
     x: 0
     y: 0
-window:
+  window:
   padding:
     x: 2
     y: 2
