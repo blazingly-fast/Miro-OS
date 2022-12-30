@@ -97,4 +97,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 eval "$(zoxide init zsh)"
 alias ls="exa -a --icons"
 alias sail="./vendor/bin/sail"
+
+alias cw="~/scripts/set-random-wallpaper.sh"
+bindkey -s '^w' 'cw^M'
 # pfetch

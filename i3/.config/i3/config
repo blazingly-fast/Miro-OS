@@ -26,7 +26,7 @@
 font pango: Noto Sans Regular 10
 
 # set the mod key to the winkey:
-set $mod Mod1
+set $mod Mod4
 
 #####################
 # workspace layout: #
@@ -370,7 +370,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id feh --bg-fill ~/Pictures/solarized-root.png
+exec --no-startup-id feh --bg-fill ~/Downloads/purple.jpg
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
 
@@ -430,7 +430,7 @@ for_window [class="Pamac-manager"] floating enable
 for_window [window_role="About"] floating enable
 
 # set border of floating window
-for_window [class="urxvt"] border pixel 1
+for_window [class="urxvt"] border pixel 0
 
 # set size of floating window
 #for_window [window_role="(?i)GtkFileChooserDialog"] resize set 640 480 #to set size of file choose dialog
@@ -463,13 +463,14 @@ set $solarized-cyan #2aa198
 set $solarized-red #FF0000
 set $solarized-blue #268bd2
 set $solarized-yellow #b58900
-
+set $gruvbox #232323
+set $magenta #FF00FF
 # define colors for windows:
 #class		        	border		bground		text		indicator	child_border
-client.focused		    $lightblue	$darkblue	$white		$solarized-cyan		$solarized-cyan
-client.unfocused	    $darkblue	$darkblue	$darkblue		$darkblue		$darkblue
-client.focused_inactive	$darkblue	$darkblue	$darkblue		$darkblue		$black
-client.urgent		    $urgentred	$urgentred	$white		$purlple		$yellowbrown
+client.focused		    	$lightblue	$darkblue	$white		$green	$green
+client.unfocused	    	$darkblue	$darkblue	$grey		$darkgrey	$darkgrey
+client.focused_inactive		$darkblue	$darkblue	$grey		$black		$black
+client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$green
 
 ############################################
 # bar settings (input comes from i3blocks) #
@@ -480,7 +481,7 @@ client.urgent		    $urgentred	$urgentred	$white		$purlple		$yellowbrown
 bar {
 		font pango: Noto Sans Regular 14
 		status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	    	position top
+	    	position bottom
 #	    	i3bar_command i3bar --transparency
 # it could be that you have no primary display set: set one (xrandr --output <output> --primary)
 # reference: https://i3wm.org/docs/userguide.html#_tray_output
@@ -495,12 +496,12 @@ strip_workspace_numbers yes
 
 		    colors {
 		    separator          $purple
-		    background         $solarized-base2
+		    background         $black
 		    statusline         $white
 #                          		border 		        bg		txt		indicator
-		focused_workspace	$mediumgrey	   	$solarized-yellow		$darkgrey	$purple
+		focused_workspace	$mediumgrey	   	$solarized-cyan		$darkgrey	$purple
 		active_workspace	$lightblue      	$mediumgrey	$darkgrey	$purple
-		inactive_workspace	$darkgrey   		$solarized-base	$grey		$purple
+		inactive_workspace	$darkgrey   		$darkgrey	$grey		$purple
 		urgent_workspace	$urgentred	    	$urgentred	$white		$purple
 	}
 }

@@ -1,0 +1,4 @@
+keycode 108 = Control_R
+clear Mod1
+add Control = Control_R
+
